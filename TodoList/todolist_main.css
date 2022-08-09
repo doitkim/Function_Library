@@ -1,0 +1,79 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+@media (min-width:0px) {
+    body {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        background-color: rgb(235, 158, 130);
+    }
+    
+    .list_control {
+        margin-top: 40px;
+    }
+
+    .list_control input {
+        width: 80%;
+        height: 50px;
+        border: 0 solid black;
+        background-color: pink;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .list_control button {
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto; */
+        border: 0 solid black;
+        border-radius: 50px;
+        background-color: pink;
+        font-weight: bold;
+        width: 50px;
+        height: 50px;
+    }    
+
+    .todolist {
+        margin-top: 60px;
+        background-color: white;
+        width: 80%;
+        height: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+
+    .todolist #title {
+        padding: 30px;
+        font-size: 32px;
+        font-weight: bold;
+        background-color: hotpink;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .todolist #content {
+        margin-top: 40px;
+        height: 400px;
+    }
+
+    .todolist #content li {
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: pink;
+        padding: 5px;
+        border-radius: 10px;
+        height: 25px;
+        width: 80%;
+        line-height: 25px;
+    }
+
+}
+
