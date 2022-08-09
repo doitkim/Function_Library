@@ -27,7 +27,13 @@ function addNewTodo() {
 
 function doneTodo(id) {
 
-    document.getElementById(`${id}`).classList.toggle('done');
+    if (confirm('완료된 항목을 삭제하시겠습니까?')){
+        var element = document.getElementById(`${id}`);
+        element.parentNode.removeChild(element);
+    }
+    else {
+        document.getElementById(`${id}`).classList.toggle('done');
+    }
 }
 
 function dekTodo() {
