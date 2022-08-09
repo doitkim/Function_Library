@@ -8,44 +8,36 @@ function addNewTodo() {
     
     const li = document.createElement('button');
     li.setAttribute("id",`${i}`);
-    li.setAttribute("onclick",`test()`);
+    li.setAttribute("onclick",'doneTodo('+i+')');
     i++;
     let todolist_index = document.getElementById('todolist_add_text').value;
     if(todolist_index ===''){
-        alert('입력되지 않았습니다.');
+        alert('작성해주세요.');
     }
     else if (content.children.length > 7){
-        alert('할 일을 추가할 수 없습니다.');
+        alert('최대 8개까지 작성 가능합니다.');
         i = 0;
     }
     
     else {
-        li.textContent = `${i}.`+todolist_index;
+        li.textContent = todolist_index;
         content.append(li);
     }    
 }
 
-function removeTodo() {
-    if (content.children[0] === undefined){
-        alert('목록이 없습니다.');
-        i = 0;
-    }
-    else {
-        content.removeChild(content.children[content.children.length-1]);
-    }
+function doneTodo(id) {
+
+    document.getElementById(`${id}`).classList.toggle('done');
 }
 
-
-// function testTodo() {
-//     if (content.children[0] === undefined){
-//         alert('목록이 없습니다.');
-//     }
-//     else {
-//         content.children.
-//     }
-// }
-
-function test() {
-    content.removeChild(content.children[0]);
+function dekTodo() {
+    if(confirm(`완전 삭제하시겠습니까?`)){
+        content.replaceChildren();
+        alert(`삭제 완료`);
+    }
+    else {
+        alert('삭제가 취소되었습니다.');
+    }
+    
 }
 
