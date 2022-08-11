@@ -14,11 +14,10 @@ function toDayCalculator () {
     
 
     
-    document.write(`<li>50일 : ${50-day}일</li>`);
-    document.write(`<li>70일 : ${70-day}일</li>`);
-    document.write(`<li>100일 : ${100-day}일</li>`);
-    document.write(`<li>200일 : ${200-day}일</li>`);
-    document.write(`<li>300일 : ${300-day}일</lir>`);
+    document.write(`<li>100일째 되는 날: D-${100-day}일</li>`);
+    document.write(`<li>200일째 되는 날: D-${200-day}일</li>`);
+    document.write(`<li>300일째 되는 날: D-${300-day}일</lir>`);
+    document.write(`<li>벌써 일년: D-${365-day}일</lir>`);
     
     switch (day != 0){
 
