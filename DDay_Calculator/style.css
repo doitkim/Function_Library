@@ -17,6 +17,9 @@ body {
     width: 400px;
     background-color: skyblue;
     padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
 }
 
 .calcFrame #dateMainView {
@@ -57,19 +60,23 @@ body {
 
 .calcFrame #text_frame {
     text-align: center;
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 40px;    
 }
 
-.calcFrame #dateSpace {
+.calcFrame #dateSpace{
     margin-top: 60px;
     text-align: center;
-    color: white;
     font-size: 80px;
     font-weight: bold;
     height: 150px;
 }
+
+.calcFrame #deadLine {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
 
 .calcFrame #dateCalcForm {
     padding: 40px;
