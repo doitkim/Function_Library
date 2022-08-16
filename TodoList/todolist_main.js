@@ -28,7 +28,7 @@ function addNewTodo() {
 function doneTodo(id) {
 
     if (confirm('완료된 항목을 삭제하시겠습니까?')){
-        var element = document.getElementById(`${id}`);
+        let element = document.getElementById(`${id}`);
         element.parentNode.removeChild(element);
     }
     else {
