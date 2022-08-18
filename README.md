@@ -1,5 +1,5 @@
 ### [모바일 to-do-list](https://doitkim.github.io/Function_Library/TodoList/todolist_main.html)
-1. To Do list 구현
+
 - 최대 8개 할일 등록 가능 (초과 시 알람 발생)
 - 할 일 없을 때 삭제 시 알람 발생
 - 공란 추가 시 알람 발생 및 입력 안됨
@@ -7,6 +7,7 @@
 - 전체 삭제 시 안내 문구 구현
 
 ### [모바일 기념일 계산기](https://doitkim.github.io/Function_Library/DDay_Calculator/main.html)
+
 - 프라이버시 기능 구현
 - 100일 단위 표기 구현
 
