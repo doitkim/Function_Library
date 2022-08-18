@@ -19,6 +19,12 @@
 - 프라이버시 기능 구현
 - 100일 단위 표기 구현
 
+#### 작업 예정 목록
+
+- flex로 레이아웃 변경
+- js 파일 모듈화
+- 프라이버시 커버 추가 및 화면 전환 구현
+
 ### [모바일 초대장](https://doitkim.github.io/Function_Library/invitePost/intro.html)
 
 - 배경 애니메이트 효과 적용 (22.08.18)
