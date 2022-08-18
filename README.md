@@ -10,5 +10,6 @@
 - 프라이버시 기능 구현
 - 100일 단위 표기 구현
 
-3. 자기소개 사이트
+### [자기소개 사이트](https://doitkim.github.io/Function_Library/invitePost/intro.html)
+
 - 배경 애니메이트 효과 적용 (22.08.18)
