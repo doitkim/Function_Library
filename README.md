@@ -1,8 +1,8 @@
 ### [모바일 to-do-list](https://doitkim.github.io/Function_Library/TodoList/todolist_main.html)
 
 - 최대 8개 할일 등록 가능 (초과 시 알람 발생)
-- 할 일 없을 때 삭제 시 알람 발생 (
-- 공란 추가 시 알람 발생 및 입력 안됨
+- 할 일 없을 때 삭제 시 알람 발생 (작업 예정)
+- 공란 추가 시 알람 발생 및 입력 불가
 - 완료 표시 구현
 - 전체 삭제 시 안내 문구 구현
 
