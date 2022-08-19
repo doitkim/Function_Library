@@ -16,13 +16,13 @@
 
 ### [모바일 기념일 계산기](https://doitkim.github.io/Function_Library/DDay_Calculator/main.html)
 
-- 프라이버시 기능 구현
-- 100일 단위 표기 구현
+- 프라이버시 기능 [화면 페이드인/아웃시 3초 Translate] 구현
+- 100일 단위 기념일 표시 구현
+- flex로 레이아웃 변경 [flax로 가운데 정렬 밑 세로 배치] - 코드 리뷰 대상!
 
 #### 작업 예정 목록
 
-- flex로 레이아웃 변경
-- js 파일 모듈화
+- js 파일 모듈화 [알아봐야함]
 - 프라이버시 커버 추가 및 화면 전환 구현
 
 ### [모바일 초대장](https://doitkim.github.io/Function_Library/invitePost/intro.html)
