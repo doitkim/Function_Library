@@ -16,6 +16,8 @@
 
 ### [모바일 기념일 계산기](https://doitkim.github.io/Function_Library/DDay_Calculator/main.html)
 
+#### 작업 완료 목록
+
 - 프라이버시 기능 [화면 페이드인/아웃시 3초 Translate] 구현
 - 100일 단위 기념일 표시 구현
 - flex로 레이아웃 변경 [flax로 가운데 정렬 밑 세로 배치] - 코드 리뷰 대상!
