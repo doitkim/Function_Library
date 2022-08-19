@@ -5,15 +5,13 @@
 body {
     height: 840px;
     width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: row;
     border-radius: 20px;
 }
 
 .calcFrame {
-    border: 0px solid red;
-    height: 800px;
+    height: 100%;
     width: 400px;
     background-color: skyblue;
     padding: 20px;
@@ -23,7 +21,7 @@ body {
 }
 
 .calcFrame #dateMainView {
-    height: 300px;
+    height: 250px;
 }
 
 .calcFrame #title {
@@ -56,6 +54,7 @@ body {
     margin-right: auto;
     line-height: 100px;
     text-align: center;
+    color: skyblue;
 }
 
 .calcFrame #text_frame {
@@ -82,6 +81,7 @@ body {
     padding: 40px;
     color: black;
     text-align: center;
+    transition-duration: 3s;
 }
 
 .calcFrame #dateCalcForm li {
