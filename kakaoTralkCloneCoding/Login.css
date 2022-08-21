@@ -1,0 +1,115 @@
+@media (max-width:460px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        width: 100%;
+        height: 100%;
+        background-color: #f9e000;
+      
+    }
+    .logoutBox {
+        margin-top: 30px;
+    }
+
+    .logoutBox #logout {
+        padding: 10px;
+    }
+
+
+
+    #logo {
+        margin-top: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://mblogthumb-phinf.pstatic.net/MjAyMDA3MTRfMjI5/MDAxNTk0NzI5NzcyMDMz.X2YVWOeE6fwrOSnUiARthmNM9a4mfRnneetw1hTtyHIg.1Tqwf_4qgAqc1v3jE6xbzobcrV3X6yN8JVUVwjlRGkog.JPEG.xuni1021/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EB%A1%9C%EA%B3%A0-ai-3.jpg?type=w800");
+        background-size: cover;
+        background-position: center center;
+        width: 150px;
+        height: 150px;
+    
+    }
+
+    #loginForm {
+        margin-top: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    
+    #loginForm input {
+        border: thin solid rgb(226, 220, 220);
+        padding: 15px;
+        width: 268px;
+    }
+    
+    #loginForm #submit, .logoutBox #logout {
+        border: thin solid rgb(226, 220, 220);
+        margin-top: 5px;
+        width: 300px;
+        background-color: #503114;
+        color: white;
+    }
+
+    #loginForm #autoCheckWrap {
+        text-align: center;
+        width: 70%;
+        height: 20px;
+        font-size: 15px;
+        line-height: 20px;
+        color: gray;
+    }
+
+    #loginForm #autoCheckWrap input {
+        width: 20px;
+    }
+    
+    #mobile_info {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: thin solid gray;
+        opacity: 0.4;
+        width: 300px;
+    }
+
+    #mobile_info #text {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    #mobile_info #text a {
+        font-weight: bold;
+        text-decoration: underline;
+        color: black;
+    }
+
+    #find_password {
+        margin-top: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: thin solid gray;
+        width: 220px;
+        height: 40px;
+        opacity: 0.4;
+        line-height: 40px;
+        text-align: center;
+        
+    }
+
+    #find_password a {
+        text-decoration: none;
+    }
+
+    .hidden {
+        display: none;
+    }
+    
+}

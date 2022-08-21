@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./Login.css">
+</head>
+<body>
+    <div id="logo"></div>
+    <form id="loginForm">
+        <input id="userID" required maxlength="30" type="text" placeholder="아이디">
+        <input id="userPW" required maxlength="16" type="password" placeholder="비밀번호">
+        <input id="submit" type="submit" value="로그인">
+        <div id="autoCheckWrap">
+            <input id="checkbox" type="checkbox"><span id="span_check">잠금모드로 자동로그인</span>
+        </div>
+    </form>
+    <div id="mobile_info">
+        <div id="text">
+            모바일에서 카카오계정을 확인할 수 있습니다.<br>
+            <a href="#">카카오계정안내</a>
+        </div>
+    </div>
+    <div id="find_password"><a href="#">비밀번호를 잊어버리셧나요?</a></div>
+    <div id=""></div>
+    <script src="./Login.js"></script>
+</body>
+</html>
