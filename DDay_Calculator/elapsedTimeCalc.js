@@ -1,6 +1,6 @@
-function elapsedTimeCalc (post,now) {
+function elapsedTimeCalc (post) {
     const dataMainView = document.querySelector('#dateSpace');
-    const nowDate = new Date(now);
+    const nowDate = new Date();
     const postDate = new Date(post);
     const sec = (nowDate - postDate)/1000;
     const minute = sec/60;
@@ -10,4 +10,4 @@ function elapsedTimeCalc (post,now) {
     document.write(`+${day}일`);
 }
 
-elapsedTimeCalc("2022-07-12","2022-08-19");
+elapsedTimeCalc("2022-07-12");
