@@ -13,7 +13,7 @@ autoCheckWrap.addEventListener ('click', () =>{
 
 // 회원 정보 출력 기능
 function paintGreetings () {
-    loginFrom.innerText = `어서오세요 ${localStorage.getItem("username")}님`;
+    loginFrom.innerText = `어서오세요 ${localStorage.getItem("username")}님`; // 로그인시 폼태그의 내용 대체
     const div = document.createElement("div");
     div.classList.add('logoutBox')
     const button = document.createElement("button");
@@ -21,6 +21,7 @@ function paintGreetings () {
     button.id = "logout";
     loginFrom.append(div);
     div.appendChild(button);
+    findPassword.outerText =''; // 비밀번호 찾기 내용 대체
 }
 
 // 회원 정보 로컬 스토리지에 저장
@@ -29,7 +30,6 @@ function login(event){
     localStorage.setItem("username",userID.value);
     localStorage.setItem("userpwassword",userPW.value);       
     paintGreetings();
-    findPassword.classList.add("hidden");
     location.reload();
 }
 
