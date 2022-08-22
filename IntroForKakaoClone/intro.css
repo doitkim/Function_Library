@@ -1,0 +1,34 @@
+@media (max-width: 460px) {
+
+    body {
+        width: 98%;
+        height: 100%;
+    }
+
+    #clock, #quoteBox {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #clock {
+        font-size: 26px;
+        vertical-align: middle;
+        color:aquamarine;
+    }
+
+    #backgroundImage {
+        margin-top: 35%;
+        background-position: center center;
+        width: 100%;
+        height: 100%;
+        line-height: 600px;
+    }
+
+    #quoteBox {
+        line-height: normal;
+        position: relative;
+        bottom: 200px;
+        color:rgb(226, 80, 226);
+        font-size: 15px;
+    }
+}
