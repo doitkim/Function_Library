@@ -1,14 +1,14 @@
 const backgroundImages = [
-    "../backgrounImage/1.jpg",
-    "../backgrounImage/2.jpg",
-    "../backgrounImage/3.jpg",
-    "../backgrounImage/4.jpg",
-    "../backgrounImage/5.jpg",
-    "../backgrounImage/6.jpg",
-    "../backgrounImage/7.jpg",
-    "../backgrounImage/8.jpg",
-    "../backgrounImage/9.jpg",
-    "../backgrounImage/10.jpg"
+    "./backgrounImage/1.jpg",
+    "./backgrounImage/2.jpg",
+    "./backgrounImage/3.jpg",
+    "./backgrounImage/4.jpg",
+    "./backgrounImage/5.jpg",
+    "./backgrounImage/6.jpg",
+    "./backgrounImage/7.jpg",
+    "./backgrounImage/8.jpg",
+    "./backgrounImage/9.jpg",
+    "./backgrounImage/10.jpg"
 ];
 
 const quotes = [
@@ -88,7 +88,7 @@ setInterval(() => {
         const background_rnd = Math.abs(Math.round((Math.random()*backgroundImages.length-1)));
         backgroundImage.style.backgroundImage= `url(${backgroundImages[background_rnd]})`;
 
-}, 3600000);
+}, 300000);
 
 // 명언 랜덤
 setInterval(() => {
@@ -96,12 +96,12 @@ setInterval(() => {
     quoteText.innerText = quotes[rnd].quote;
     quoteAuthor.innerText = quotes[rnd].author;
 
-}, 3600000);
+}, 300000);
 
 date();
 
 // 배경 초기화
-backgroundImage.style.backgroundImage= "url(../backgrounImage/1.jpg)";
+backgroundImage.style.backgroundImage= "url(./backgrounImage/1.jpg)";
 // 명언 초기화
 quoteText.innerText = quotes[0].quote;
 quoteAuthor.innerText = quotes[0].author;
