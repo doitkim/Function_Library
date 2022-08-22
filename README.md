@@ -51,3 +51,8 @@
   
   - 로그아웃시 현재 로컬저장소 전체 삭제 뒤 페이지 리로드 하여 로그아웃 동작
   
+### [인트로 for 카카오](https://doitkim.github.io/Function_Library/IntroForKakaoClone/intro.html)
+작업기간 : 22.08.22 10:00 ~ 12:10 (약 1시간 10분)
+1. 화면 구성
+- 실시간 날짜와 시간 구현
+- 지정된 시간마다 명언과 배경이미지 랜덤 표시 구현
