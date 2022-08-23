@@ -17,6 +17,7 @@ function onGeoOk (position) {
             case "Rain" : weather.innerText = "🌧️"; break;
             case "Snow" : weather.innerText = "🌨️"; break;
             case "Sunny" : weather.innerText = "🌞"; break;
+            case "Mist" : weather.innerText = "🌫"; break;
         }   
         
     });
