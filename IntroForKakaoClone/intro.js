@@ -111,14 +111,21 @@ function date () {
         }
         clock.innerText = `${Year}년 ${Month}월 ${dates}일 (${day}) ${hour}:${minute}:${second}`;
 
+        // 점심 시간 알람 기능
+        if ((hour === "12" && minute ==="50") || (hour === "17" && minute ==="50")){
+            backgroundImage.style.backgroundImage= "url(https://mblogthumb-phinf.pstatic.net/MjAxODAxMDNfMTI2/MDAxNTE0OTE4MzE4NTY1.8W6J8q3hL0SQDB0r8Fxht2K9i-bb9acLGP4Ojt0iLr0g.GUTGbG0n88lUKiOOaOSY6Gvdd-NrU3tB4PdzYaPzPz8g.GIF.njhanjo/queens_171223_01-%EA%B0%84%EC%9E%A5%EA%B3%84%EB%9E%80%EB%B0%A5.gif?type=w800)";
+            backgroundImage.style.backgroundSize ="cover";
+            backgroundImage.style.backgroundPosition ="center center";
+        }
     }, 1000);
 }
+
 // 배경 랜덤
 setInterval(() => {
         const background_rnd = Math.abs(Math.round((Math.random()*backgroundImages.length-1)));
         backgroundImage.style.backgroundImage= `url(${backgroundImages[background_rnd]})`;
 
-}, 10000);
+}, 60000);
 
 // 명언 랜덤
 setInterval(() => {
@@ -126,7 +133,7 @@ setInterval(() => {
     quoteText.innerText = quotes[rnd].quote;
     quoteAuthor.innerText = quotes[rnd].author;
 
-}, 10000);
+}, 60000);
 
 date();
 
@@ -137,5 +144,5 @@ quoteText.innerText = quotes[0].quote;
 quoteAuthor.innerText = quotes[0].author;
 
 backgroundImage.addEventListener("click", () =>{
-    location.href ="https://doitkim.github.io/Function_Library/kakaoTralkCloneCoding/Login.html?";
+    location.href ="../kakaoTalkCloneCoding/Login.html";
 });
