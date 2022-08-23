@@ -1,14 +1,44 @@
 const backgroundImages = [
-    "./backgrounImage/1.jpg",
-    "./backgrounImage/2.jpg",
-    "./backgrounImage/3.jpg",
-    "./backgrounImage/4.jpg",
-    "./backgrounImage/5.jpg",
-    "./backgrounImage/6.jpg",
-    "./backgrounImage/7.jpg",
-    "./backgrounImage/8.jpg",
-    "./backgrounImage/9.jpg",
-    "./backgrounImage/10.jpg"
+    "https://thumbs.gfycat.com/OldfashionedUniformFlycatcher-size_restricted.gif",
+    "https://1.bp.blogspot.com/-AFWcTfVzDsk/XL2UvwLOu3I/AAAAAAAAFII/wJFV0sxaVbw1JGvdw9xBK2_jcYMfUgLVACLcBGAs/s1600/18.gif",
+    "https://thumbs.gfycat.com/MarriedFlakyFlies-size_restricted.gif",
+    "https://mblogthumb-phinf.pstatic.net/20110127_94/jwjw7431_1296120482640EWHEU_GIF/B9ABC1A66_tn5690.gif?type=w2",
+    "https://t1.daumcdn.net/cfile/blog/2768C641528B578A2B",
+    "https://s31.postimg.cc/tpvamlchn/Pu_G2g_RK.gif",
+    "https://thumbs.gfycat.com/HomelyAgreeableCaecilian-max-1mb.gif",
+    "https://33.media.tumblr.com/64c61f1b5eac0d391e951be5a3cd9917/tumblr_nm7pl936ZR1s6xjqmo9_400.gif",
+    "https://33.media.tumblr.com/c2d9ff0eca8438e20b6a10e7ee15466f/tumblr_nm7pl936ZR1s6xjqmo3_540.gif",
+    "https://t1.daumcdn.net/cfile/blog/2104953A5289A8F912",
+    "https://mblogthumb-phinf.pstatic.net/MjAyMDA0MTZfMjQ2/MDAxNTg3MDA1NzUzNDQ5.ZFYq5rP5MvcHaXrJFsF-0_y3eQuKVFV4okKLe-hP0jsg.XkLXfKeSux854JH-QZXCEXsB6qIbWcP2-HbjmijUxZAg.GIF.fjdkeivn/b6bcd27a9bc0a1ee0b56bd68bc6d7dfb.gif?type=w800",
+    "https://thumbs.gfycat.com/FemaleGreatCleanerwrasse-size_restricted.gif",
+    "https://t1.daumcdn.net/cfile/tistory/9951574E5A73DDFD03",
+    "https://thumbs.gfycat.com/DiscreteShrillGrouper-size_restricted.gif",
+    "http://appdata.hungryapp.co.kr/data_file/data_img/201811/16/W15423321445161987.gif",
+    "https://cdn.clien.net/web/api/file/F01/5657308/b0e6daf4e1cd4c02ab9.GIF",
+    "https://i.pinimg.com/originals/60/25/82/602582a19c6efd0f7f0b57c5e6ac0172.gif",
+    "https://mblogthumb-phinf.pstatic.net/20140731_11/iimmortall_1406781103572ROJhw_GIF/39.gif?type=w2",
+    "https://blog.kakaocdn.net/dn/cpHuAj/btqABrWNVbu/VbUOIqkEa5KwbQPtahqdLk/img.gif",
+    "https://i.pinimg.com/originals/00/ef/a2/00efa2908eeb42db664df14a49757125.gif",
+    "https://cdn.clien.net/web/api/file/F01/4040151/d1649f98a92a4b52a1f.GIF",
+    "http://appdata.hungryapp.co.kr/data_file/data_img/201801/08/W15154072987244349.gif",
+    "https://2.bp.blogspot.com/-paihZhh8Rjc/WPwd82lbE2I/AAAAAAAABWg/PrkURIgMV0UDd5iZVEIa_KbrYOTCX_d2ACLcB/s1600/13490.gif",
+    "http://appdata.hungryapp.co.kr/data_file/data_img_m/201906/M15613013096642618.gif",
+    "https://33.media.tumblr.com/064e34530d5e043f41398b3f544c7c06/tumblr_no5sg4s2fb1ti6a52o1_500.gif",
+    "https://img.onnada.com/2017/1208/991374878_27b98d61_01.gif",
+    "https://mblogthumb-phinf.pstatic.net/MjAxOTExMDhfMjA0/MDAxNTczMTQ0NTY2MzAz.NZJy-rmPL6WzYXciBg0jdtBirmvrzjkfkTrwqlRA2Hgg.DTQtWTVb40vixj1fOsTzcN70UVi9dlBcbERcXFxjC1cg.GIF.woojin2352/1573144495552.gif?type=w800",
+    "https://hedwig-cf.netmarble.com/forum-common/sknightsmmo/sk2/bf3d4a5dc2574b0ba4b878ea38df9b13_1622000679784.gif",
+    "https://data.ygosu.com/upload_files/board_animation/24648/52d9076296b7a.gif",
+    "https://data.ygosu.com/upload_files/board_animation/24648/52d90d066126f.gif",
+    "https://mblogthumb-phinf.pstatic.net/20160802_198/kmj427307_1470117746777aA1yV_GIF/%C0%AF%C0%CC_%BF%F2%C2%A905.gif?type=w2",
+    "https://www.ilbe.com/file/download/9039084411",
+    "http://appdata.hungryapp.co.kr/data_file/data_img_m/202007/M15943708457683994.gif",
+    "http://appdata.hungryapp.co.kr/data_file/data_img_m/202007/M15943710061363494.gif",
+    "https://gif.fmkorea.com/files/attach/new/20150717/2895716/69394059/193894027/dd510abc1586764c0c98ff206280029d.gif",
+    "https://dszw1qtcnsa5e.cloudfront.net/community/20200624/d4f2e958-4930-47c3-9649-75652a8581e3/tumblrnq78w1rkQp1twrse4o1500.gif",
+    "https://i.pinimg.com/originals/36/c7/21/36c72113d8fa9052e01b34736ff25cbf.gif",
+    "https://thumbs.gfycat.com/ConsiderateLimitedCassowary-size_restricted.gif",
+    "https://thumbs.gfycat.com/RepulsiveMildGuanaco-size_restricted.gif",
+    "https://t1.daumcdn.net/cfile/tistory/995B633A5FCE383C1B",
 ];
 
 const quotes = [
@@ -88,7 +118,7 @@ setInterval(() => {
         const background_rnd = Math.abs(Math.round((Math.random()*backgroundImages.length-1)));
         backgroundImage.style.backgroundImage= `url(${backgroundImages[background_rnd]})`;
 
-}, 300000);
+}, 10000);
 
 // 명언 랜덤
 setInterval(() => {
@@ -96,12 +126,12 @@ setInterval(() => {
     quoteText.innerText = quotes[rnd].quote;
     quoteAuthor.innerText = quotes[rnd].author;
 
-}, 300000);
+}, 10000);
 
 date();
 
 // 배경 초기화
-backgroundImage.style.backgroundImage= "url(./backgrounImage/1.jpg)";
+backgroundImage.style.backgroundImage= "url(https://img.onnada.com/2021/0603/662034559_8aa2c27a_807684.gif)";
 // 명언 초기화
 quoteText.innerText = quotes[0].quote;
 quoteAuthor.innerText = quotes[0].author;
