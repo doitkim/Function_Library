@@ -144,5 +144,5 @@ quoteText.innerText = quotes[0].quote;
 quoteAuthor.innerText = quotes[0].author;
 
 backgroundImage.addEventListener("click", () =>{
-    location.href ="../kakaoTalkCloneCoding/Login.html";
+    location.href ="../kakaoTralkCloneCoding/Login.html";
 });
